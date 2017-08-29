@@ -46,7 +46,6 @@ class ThemePusher
      * @param object $zip, string $folder, string $dest
      * @return void
      */
-
     public function zipDir( $zip, $folder, $dest )
     {
         $baseFolder = $dest;

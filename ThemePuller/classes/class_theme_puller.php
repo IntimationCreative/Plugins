@@ -40,43 +40,13 @@ class ThemePuller
             return;
         }
 
-        // remove directory
-        // $this->rrmdir('/Users/paul/Sites/wordpress/sat1/wp-content/themes/base');
-
         $url = $_POST['file_url'];
         $data['url'] = $url;
 
+        // need to make dynamic
         $destination = '/Users/paul/Sites/wordpress/sat1/wp-content/themes/base.zip';
-
-        //$options = array('ftp' => array('overwrite' => true));
-        //$stream = stream_context_create($options); 
-
-        //$file = file_put_contents( $destination, file_get_contents($url), 0, $stream );
-
-        //$data['file'] = $file; 
-
         $zipurl = '/Users/paul/Sites/wordpress/sat1/wp-content/themes/base.zip'; 
         $zipdestination = '/Users/paul/Sites/wordpress/sat1/wp-content/themes/'; 
-
-        // if ( $file ) {
-            //$data['file2'] = $file;
-
-            // Unzip the archive
-            //$zip = new ZipArchive;
-
-            //$open = $zip -> open( $zipurl );
-
-            // if ($open === TRUE) {            
-            //     $zip -> extractTo( $zipdestination );
-            //     $data['status'] = 'ok';
-            //     $zip -> close();
-            // } else {
-            //     $data['status'] = 'failed';
-            // }       
-
-        // }
-
-        //print_r($data);    
 
         wp_send_json_success( $data );
 
