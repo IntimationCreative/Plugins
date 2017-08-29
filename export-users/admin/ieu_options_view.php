@@ -21,15 +21,10 @@
         do_settings_sections('inti_export_users'); ?>
 
         </ul>
-        
     
         <form action="" method="post">
             <button type="submit" class="button ieu-export">Export</button>
         </form>
 
-        <?php // output save settings button
-        // submit_button('Save Settings');
-
-        ?>
     </form>
 </div>

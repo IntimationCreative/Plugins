@@ -107,7 +107,6 @@ class Inti_Export_Users
         );
     }
 
-
     /**
      * Sanitize each setting field as needed
      *
@@ -124,7 +123,6 @@ class Inti_Export_Users
 
     	return $new_input;
     }
-    
 
     /**
      * Intimation Get Users
@@ -144,7 +142,6 @@ class Inti_Export_Users
 
         return $users;
     }
-
 
     /**
      * handle the export
@@ -198,13 +195,11 @@ class Inti_Export_Users
 
     }
 
-
     /**
      * Import scripts and styles
      */
     public function ieu_scripts_and_styles()
     {
-        
         wp_enqueue_script( 
             'ieu-scripts',
             $this->directory . '/js/ieu-scripts.js', 
