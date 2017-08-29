@@ -1,0 +1,10 @@
+.button.ieu-export {
+	background: rgb(135, 22, 38) !important;
+	border-color: rgb(135, 22, 38) !important;
+	color: #fff !important;
+	padding: 0.5em 2rem !important;
+	display: block !important;
+	vertical-align: middle;
+	height: auto !important;
+	font-size: 18px !important;
+}

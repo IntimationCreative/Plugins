@@ -1,0 +1,7 @@
+button.archived {
+	background: rgb(135, 22, 38) !important;
+	color: white !important;
+	border-color: rgb(135, 22, 38) !important;
+	padding: 0.2rem 1rem !important;
+	height: auto !important;
+}
